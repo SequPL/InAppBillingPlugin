@@ -54,7 +54,7 @@ namespace Plugin.InAppBilling
             }
         }
 
-        BillingClient BillingClient { get; set; }
+        public BillingClient BillingClient { get; set; }
         BillingClient.Builder BillingClientBuilder { get; set; }
         /// <summary>
         /// Determines if it is connected to the backend actively (Android).
